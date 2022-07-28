@@ -1,13 +1,13 @@
 import { FaLinkedinIn, FaTwitter, FaInstagram } from "react-icons/fa";
 
-import avatarThumb1 from "assets/images/team/cane_ombra1.jpg"; 
+import avatarThumb1 from "assets/images/team/founder.jpeg"; 
 import avatarThumb2 from "assets/images/banner/maradona_diamond.png"; 
 import avatarThumb3 from "assets/images/banner/k3.png"; 
 import avatarThumb4 from "assets/images/banner/k4.png"; 
 import avatarThumb5 from "assets/images/banner/k5.png";
 import avatarThumb6 from "assets/images/banner/budda5.png";
 import avatarThumb7 from "assets/images/banner/budda3.png";
-import avatarThumb8 from "assets/images/team/cane_ombra4.jpg";
+import avatarThumb8 from "assets/images/team/founder_ultimo_posto.jpeg";
 const data = [
   {
     avatar: avatarThumb1,
