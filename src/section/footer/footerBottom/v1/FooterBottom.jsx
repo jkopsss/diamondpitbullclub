@@ -22,14 +22,14 @@ const FooterBottom = () => {
               {data?.map((item, i) => (
                 <li key={i}>
                   <Link href={item.url}>
-                    <a>{item.title}</a>
+                    <a style={{fontSize:"1.2rem"}}>{item.title}</a>
                   </Link>
                 </li>
               ))}
             </ul>
           </div>
           <div className="v2_footer_copiright_text">
-            <p>Copyright ©2022 DiamondPitbullClub, All rights reserved.</p>
+            <p style={{fontSize:"1.2rem"}}>Copyright ©2022 DiamondPitbullClub, All rights reserved.</p>
           </div>
           <Link href="# " className="bact_to_top_btn">
             <a>

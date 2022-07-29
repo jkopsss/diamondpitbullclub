@@ -20,7 +20,7 @@ const TeamMember = ({ avatar, name, designation, socialLinks }) => {
           <img src={hoverShape.src} alt="bithu nft team" />
         </span>
 
-        <div className="team_social_icon">
+        {/* <div className="team_social_icon">
           <ul>
             {socialLinks?.map((item, i) => (
               <li key={i}>
@@ -30,7 +30,7 @@ const TeamMember = ({ avatar, name, designation, socialLinks }) => {
               </li>
             ))}
           </ul>
-        </div>
+        </div> */}
       </div>
     </TeamMemberStyleWrapper>
   );

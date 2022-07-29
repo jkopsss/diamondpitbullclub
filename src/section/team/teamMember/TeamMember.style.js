@@ -37,7 +37,7 @@ const TeamMemberStyleWrapper = styled.article`
       text-align:center;
     }
     .team_member_img img{
-      max-width: 55% !important;
+      max-width: 63% !important;
       transition: transform 0.5s;
     }
     .hov_shape1 img, 
