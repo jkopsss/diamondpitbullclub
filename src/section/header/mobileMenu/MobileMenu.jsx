@@ -6,7 +6,7 @@ import { BsXLg } from "react-icons/bs";
 import { useModal } from "utils/ModalContext";
 import MobileMenuStyleWrapper from "./MobileMenu.style";
 import Button from "common/button";
-import logo from "assets/images/logo.png";
+import logo from "assets/images/icon/logo_pitbull.jpeg";
 import openseaIcon from "assets/images/icon/opensea.svg";
 import data from "assets/data/menu/menuData";
 
@@ -22,7 +22,7 @@ const MobileMenu = ({ mobileMenuhandle }) => {
     <MobileMenuStyleWrapper className="bithu_mobile_menu">
       <div className="bithu_mobile_menu_content">
         <div className="mobile_menu_logo">
-          <Image className="bithu_logo" src={logo} alt="bithu logo" />
+        <img src={logo.src} alt="bithu nft logo" style={{maxWidth: "52%"}}/>
           <button
             className="mobile_menu_close_btn"
             onClick={() => mobileMenuhandle()}

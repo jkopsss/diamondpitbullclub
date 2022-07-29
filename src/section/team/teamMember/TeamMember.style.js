@@ -145,10 +145,11 @@ const TeamMemberStyleWrapper = styled.article`
       text-align:center;
     }
     .team_member_img img{
-      max-width: 32% !important;
+      
     }
     }
   }
+  
 `;
 
 export default TeamMemberStyleWrapper;

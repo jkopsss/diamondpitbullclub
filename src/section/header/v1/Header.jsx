@@ -7,7 +7,7 @@ import { FaDiscord, FaWallet } from "react-icons/fa";
 import { MdNotes } from "react-icons/md";
 import Button from "common/button";
 import MobileMenu from "../mobileMenu/MobileMenu";
-import logo from "assets/images/logo.png";
+import logo from "assets/images/icon/logo_pitbull.jpeg";
 import data from "assets/data/menu/menuData";
 const Header = () => {
   const { menus, subMenus } = data;
@@ -38,8 +38,8 @@ const Header = () => {
           <div className="bithu_menu_left_sect">
             <div className="logo">
               <Link href="/">
-                <a>
-                  <Image src={logo} alt="bithu nft logo" />
+                <a style={{display:"flex",verticalAlign:"center"}}>
+                  <img src={logo.src} alt="bithu nft logo" class="logo_img" style={{maxWidth: "52%"}}/>
                 </a>
               </Link>
             </div>

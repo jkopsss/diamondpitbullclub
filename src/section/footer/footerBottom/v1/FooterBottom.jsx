@@ -1,20 +1,24 @@
 import Link from "next/link";
 import data from "assets/data/footer/footerLinks";
 
-import footerLogo from "assets/images/logo.png";
+import footerLogo from "assets/images/icon/logo_pitbull.jpeg";
 import backToTopIcon from "assets/images/icon/back_to_top.svg";
 import footerShapesLeft from "assets/images/icon/footer_shapes_left.png";
 import footerShapesRight from "assets/images/icon/footer_shapes_right.png";
-
+import bannerThumb1 from "assets/images/banner/Item1.png";
+import bannerThumb2 from "assets/images/banner/Item2.png";
+import bannerThumb3 from "assets/images/banner/Item3.png";
+import Particle from "common/particle/v2";
 import FooterBottomStyleWrapper from "./FooterBottom.style";
 const FooterBottom = () => {
   return (
     <FooterBottomStyleWrapper className="bithu_v2_main_footer">
+    
       <div className="v2_main_footer">
         <div className="v2_footer_menu">
           <div className="v2_footer_logo">
             <Link href="# ">
-              <img src={footerLogo.src} alt="bithu nft logo" />
+              <img src={footerLogo.src} alt="bithu nft logo" style={{maxWidth: "20%"}} />
             </Link>
           </div>
           <div className="bottom_footer_menulist">

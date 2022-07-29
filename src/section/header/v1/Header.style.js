@@ -2,6 +2,16 @@ import styled from "styled-components";
 
 const NavWrapper = styled.nav`
   z-index: 999;
+  .titolo{
+    font-family: "Bakbak One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
   &.bithu_header {
     position: absolute;
     top: 0;
@@ -279,6 +289,12 @@ const NavWrapper = styled.nav`
         }
       }
     }
+  }
+  @media (min-width:599px) and (max-width: 768px) {
+    .logo_img {
+        max-width: 70% !important;
+       
+      }
   }
   @media only screen and (max-width: 575px) {
     .join_discord_btn {
