@@ -27,7 +27,9 @@ const CharacterSliderWrapper = styled.section`
   .character-thumb .immagine{
     transition:1s;
   }
-
+// .linea_height_top img{
+//   min-width:100% !important;
+// }
   .character-thumb {
     position:relative;
     height: 280px;
@@ -36,7 +38,7 @@ const CharacterSliderWrapper = styled.section`
     cursor:pointer;
     align-items: center;
     border:1px solid black;
-    background: rgba(255, 255, 255, 0.05);
+    // background: rgba(255, 255, 255, 0.05);
     transition:0.5s;
 
     &::before{
@@ -44,7 +46,7 @@ const CharacterSliderWrapper = styled.section`
       display:block;
       position:absolute;
       width:40px;
-      bottom:-3px;
+      bottom:-2px;
       right:0px;
       border:0.5px solid white;
       transition:0.5s;
@@ -55,9 +57,9 @@ const CharacterSliderWrapper = styled.section`
       display:block;
       position:absolute;
       width:40px;
-      top:-3px;
+      top:-2px;
       left:0px;
-      border:0.5px solid white;
+      border:10px solid white;
       transition:0.5s;
   
     }
@@ -75,7 +77,7 @@ const CharacterSliderWrapper = styled.section`
         display:block;
         position:absolute;
         width:100%;
-        border:0.5px solid white;
+        border:10px solid white;
       }
       .linea_height_top{
       

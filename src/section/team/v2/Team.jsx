@@ -9,7 +9,7 @@ const Team = () => {
     <TeamStyleWrapper>
       <div className="bithu_team_sect" id="team">
         <div className="team_bear_img">
-          <img src={teamBearImg.src} alt="bithu nft team" />
+          {/* <img src={teamBearImg.src} alt="bithu nft team" /> */}
         </div>
         <div className="container">
           <SectionTitle

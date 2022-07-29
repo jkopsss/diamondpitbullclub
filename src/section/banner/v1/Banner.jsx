@@ -4,7 +4,7 @@ import Counter from "common/counter";
 import Button from "common/button";
 import BannerV1Wrapper from "./Banner.style";
 import Link from 'next/link';
-import characterThumb from "assets/images/icon/maradona_transparent.png";
+import characterThumb from "assets/images/banner/budda5.png";
 import homeImageBG from "assets/images/nft/home_img_bg.png";
 import PitbullImg from "assets/images/banner/pitbull_transparent.png";
 

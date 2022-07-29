@@ -29,7 +29,7 @@ const FAQ = () => {
 
           <div className="bithu_faq_questions">
             <div className="faq_bear_img">
-              <img src={faqBearShape.src} alt="bithu nft faq" />
+              {/* <img src={faqBearShape.src} alt="bithu nft faq" /> */}
             </div>
             <Accordion className="faq_questions">
               {data?.map((item, i) => (

@@ -61,9 +61,16 @@ const CharacterSlider = () => {
         
           <SliderItem key={i}  onClick={() => MintNowModalGallery()}>
          
-            <div className="character-thumb">
+            <div className="character-thumb"
+            style={{
+            background: "url("+item.thumb.src+")", 
+            backgroundPosition:"center",
+             backgroundRepeat:"no-repeat" ,
+              backgroundSize:"cover"
+            }}
+            >
               <span className="linea_height_top"></span>
-              <img src={item.thumb.src} className="immagine" alt="bithu nft character" />
+              {/* <img src={item.thumb.src} className="immagine" alt="bithu nft character" /> */}
               <span className="linea_height_bottom"></span>
             </div>
             
