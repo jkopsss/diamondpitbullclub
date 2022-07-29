@@ -6,11 +6,14 @@ const NavWrapper = styled.nav`
     font-family: "Bakbak One";
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size:20px;
     line-height: 22px;
     text-align: center;
     text-transform: uppercase;
     color: #ffffff;
+    padding-top: 20px;
+    padding-left: 20px;
+   
   }
   &.bithu_header {
     position: absolute;
@@ -90,14 +93,15 @@ const NavWrapper = styled.nav`
   }
 
   .bithu_menu_right_sect {
-    width: 85%;
+    ${'' /* width: 85%; */}
+    margin-left:25px;
     display: flex;
     align-items: center;
     justify-content: end;
   }
 
   .bithu_menu_list {
-    margin-left: 65px;
+    margin-left: 75px;
     margin-right: 96px;
     max-width: 514px;
     min-width: 409px;
@@ -292,7 +296,7 @@ const NavWrapper = styled.nav`
   }
   @media (min-width:599px) and (max-width: 768px) {
     .logo_img {
-        max-width: 70% !important;
+        max-width: 50% !important;
        
       }
   }

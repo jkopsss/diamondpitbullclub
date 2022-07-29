@@ -40,8 +40,10 @@ const Header = () => {
               <Link href="/">
                 <a style={{display:"flex",verticalAlign:"center"}}>
                   <img src={logo.src} alt="bithu nft logo" class="logo_img" style={{maxWidth: "52%"}}/>
+                  <p className="titolo">Diamond<br />pitbullclub</p>
                 </a>
               </Link>
+             
             </div>
           </div>
           <div className="bithu_menu_right_sect bithu_v1_menu_right_sect">
