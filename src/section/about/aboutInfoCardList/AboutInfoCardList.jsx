@@ -7,7 +7,7 @@ const AboutInfoCardList = () => {
     <AboutInfoCardListWrapper className="about_us_text_card_sect">
       <div className="row">
         {aboutInfo?.map((item, i) => (
-          <div key={i} className="col-md-4">
+          <div key={i} className="col-md-3">
             <AboutCard {...item} />
           </div>
         ))}
