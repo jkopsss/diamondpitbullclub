@@ -1,10 +1,10 @@
 const RoadMapItem = ({ progressIcon, progress, title, text, thumb }) => {
   return (
     <div className="bithu_roadmap_item">
-      <div className="roadmap_parcentage">
+      {/* <div className="roadmap_parcentage">
         <span>{progress}</span>
         <span className="parcentage">%</span>
-      </div>
+      </div> */}
       <div className="bithu_roadmap_content">
         <div className="bithu_roadmap_text">
           <div className="roadmap_heading">
@@ -15,7 +15,7 @@ const RoadMapItem = ({ progressIcon, progress, title, text, thumb }) => {
         </div>
       </div>
       <div className="roadmap_img">
-        <img src={thumb.src} alt="bithu nft progress" />
+        <img src={thumb.src} alt="bithu nft progress"/>
       </div>
     </div>
   );

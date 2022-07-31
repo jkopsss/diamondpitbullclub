@@ -8,6 +8,7 @@ import HowToMint from "section/howToMint/v1";
 import About from "section/about/v1";
 // import RoadMap from "section/roadMap/v1";
 import RoadMap from "section/roadMap/v2";
+import RoadMap3 from "section/roadMap/v3";
 import Team from "section/team/v2";
 import FAQ from "section/faq/v2";
 import Footer from "section/footer/v2";
@@ -27,6 +28,7 @@ export default function Home() {
       <CharacterSlider />
       {/* <HowToMint /> */}
       <About />
+      <RoadMap3/>
       <RoadMap />
       <Team />
       <FAQ />

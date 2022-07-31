@@ -4,12 +4,12 @@ import data from "assets/data/roadMap/dataV3";
 import RoadMapStyleWrapper from "./RoadMap.style";
 const RoadMap = () => {
   return (
-    <RoadMapStyleWrapper id="roadmap">
-      <div className="container">
+    <RoadMapStyleWrapper id="roadmap_v3">
+      <div className="container" style={{paddingTop:"200px"}}>
         <SectionTitle
           isCenter={true}
-          title="Roadmap"
-          subtitle="Our Goals"
+          title="Benefits"
+          subtitle="Our Targets"
           className="text-center"
         />
 

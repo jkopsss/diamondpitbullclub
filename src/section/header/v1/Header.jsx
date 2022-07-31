@@ -39,7 +39,7 @@ const Header = () => {
             <div className="logo">
               <Link href="/">
                 <a style={{display:"flex",verticalAlign:"center"}}>
-                  <img src={logo.src} alt="bithu nft logo" class="logo_img" style={{maxWidth: "52%"}}/>
+                  <img src={logo.src} alt="bithu nft logo" className="logo_img" style={{maxWidth: "52%"}}/>
                   <p className="titolo">Diamond<br />pitbullclub</p>
                 </a>
               </Link>

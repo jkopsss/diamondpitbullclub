@@ -59,7 +59,7 @@ const CharacterSliderWrapper = styled.section`
       width:40px;
       top:-2px;
       left:0px;
-      border:10px solid white;
+      border:0.5px solid white;
       transition:0.5s;
   
     }
@@ -77,16 +77,16 @@ const CharacterSliderWrapper = styled.section`
         display:block;
         position:absolute;
         width:100%;
-        border:10px solid white;
+        border:0.5px solid white;
       }
       .linea_height_top{
       
-        height:283px;
+        height:282px;
    
       }
       .linea_height_bottom{
      
-        height:283px;
+        height:282px;
    
       }
       .immagine{

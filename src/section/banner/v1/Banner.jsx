@@ -17,7 +17,7 @@ const Banner = () => {
         <div className="row">
           <div className="col-lg-6">
             <div className="bithu_v1_baner_left">
-              <h2>Crazy Meta 🎯 NFT collections</h2>
+              <h2>Diamond<br/>pitbullclub 🎯 NFT collections</h2>
               <h3>
                 <span className="count">
                   <Counter end={5555} duration={5555} />

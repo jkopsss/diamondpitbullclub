@@ -1,45 +1,39 @@
 import checkIcon from "assets/images/blog/arrow.png";
-import thumb1 from "assets/images/blog/roadmap-img.png";
-import thumb2 from "assets/images/blog/roadmap-img2.png"; 
-import thumb3 from "assets/images/blog/roadmap-img3.png";
-import thumb4 from "assets/images/blog/roadmap-img4.png";
-import thumb5 from "assets/images/blog/roadmap-img5.png";
+import thumb1 from "assets/images/team/cane_ombra5.jpg";
+import thumb2 from "assets/images/team/cane_ombra6.jpg"; 
+import thumb3 from "assets/images/team/cane_ombra7.jpg";
+import thumb4 from "assets/images/team/cane_ombra8.jpg";
+// import thumb5 from "assets/images/team/roadmap-img5.png";
 const data = [
   {
     progressIcon: checkIcon,
     progress: "10",
-    title: "Launch The Website",
-    text: "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced.",
+    title: "STAKING DIAMONDS",
+    text: "Holders will be able to staking their nft to earn $DMND, the exclusive tokens of the Diamond Pitbull Club. With these tokens, they will be able to get our second collection and collectibles for our metaverse areas.",
     thumb: thumb1,
   },
   {
     progressIcon: checkIcon,
     progress: "20",
-    title: "Giveaway to Holders",
-    text: "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced.",
+    title: "JOIN THE COMMUNITY NOW ",
+    text: "Let’s build together the best exclusive club never seen before. The Diamond Pitbull Club is more than just art. It will be a way to achieve the best version of yourself, with all the benefits of the Metaverse.",
     thumb: thumb2,
   },
   {
     progressIcon: checkIcon,
     progress: "50",
-    title: "Pre-sale Start",
-    text: "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced.",
+    title: "CHANGE AND \nENRICH YOUR LIFE",
+    text: "The Diamond Pitbull Club is a network full of inspirational and successful individuals and companies from around the globe coming together as one. A community full of investors that feels like a family, here to help you to achieve your goals for change your life.",
     thumb: thumb3,
   },
   {
     progressIcon: checkIcon,
     progress: "75",
-    title: "Legendary Guest Artist Backgrounds",
-    text: "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced.",
+    title: "METAVERSE",
+    text: "With the help of the community, we will able to wear the pitbulls and join Diamond Pitbull City, a Private land on the Metaverse where only the members of our community will gain access",
     thumb: thumb4,
   },
-  {
-    progressIcon: checkIcon,
-    progress: "100",
-    title: "Personalize Your NFT",
-    text: "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced.",
-    thumb: thumb5,
-  },
+
 ];
 
 export default data;

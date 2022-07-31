@@ -7,7 +7,7 @@ import aboutThumb2 from "assets/images/icon/cuccia4.jpg";
 import AboutStyleWrapper from "./About.style";
 
 const About = () => {
-  const { aboutDescription1, aboutDescription2 } = data;
+  const { aboutDescription1, aboutDescription2,aboutDescription3 } = data;
   return (
     <AboutStyleWrapper id="about">
       <div className="container">
@@ -18,6 +18,7 @@ const About = () => {
               <div className="v1_about_us_right_text">
                 <p>{aboutDescription1}</p>
                 <p>{aboutDescription2}</p>
+                <p><strong>{aboutDescription3}</strong></p>
               </div>
             </div>
           </div>

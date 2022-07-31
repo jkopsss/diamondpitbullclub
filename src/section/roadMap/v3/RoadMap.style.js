@@ -104,7 +104,7 @@ const RoadMapStyleWrapper = styled.section`
     height: 170px;
     justify-content: center;
     align-items: center;
-    background: #11181e;
+    ${'' /* background: #11181e; */}
     margin-left: 20px;
   }
 
@@ -162,7 +162,7 @@ const RoadMapStyleWrapper = styled.section`
   @media only screen and (max-width: 480px) {
     .bithu_roadmap_item {
       column-gap: 0;
-      row-gap: 20px;
+      row-gap: 18px;
     }
 
     .bithu_roadmap_text {

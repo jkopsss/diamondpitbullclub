@@ -1,6 +1,6 @@
 import DiamondImg from "assets/images/banner/diamond_transparent.png";
 
-const RoadMapItem = ({ id, icon, title, text }) => {
+const RoadMapItem = ({ id, icon, subtitle, title, text }) => {
   return (
     <div
       className={
@@ -22,6 +22,9 @@ const RoadMapItem = ({ id, icon, title, text }) => {
           </span>
         </h3>
         <div className="postcard__bar" style={{marginBottom:"15px"}}></div>
+        <h4 style={{marginBottom:"10px"}}>
+          {subtitle}{" "}
+        </h4>
         <p>{text}</p>
       </div>
     </div>

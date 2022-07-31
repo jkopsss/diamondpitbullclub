@@ -1,27 +1,27 @@
 const data = [
   {
-    title: "What is MiNFT ?",
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    title: "WHEN IS THE OFFICIAL LAUNCH ?",
+    text: "The official launch date will be…",
   },
   {
-    title: "How we can buy and invest NFT ?",
-    text: "It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur cites of the word in classical literature.",
+    title: "WHAT WILL BE THE PRICE ?",
+    text: "The Price of Minting will be 0.2ETH + Gas Fees",
   },
   {
-    title: "Why we should choose MiNFT ?",
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    title: "HOW DO I GET WHITELISTED  ?",
+    text: "Our Whitelist is still open, you can check all the info on our discord",
   },
   {
-    title: "Where we can buy and sell NFts ?",
-    text: "It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur cites of the word in classical literature.",
+    title: "HOW I CAN BUY A DIAMOND PITBULL ?",
+    text: "You will be able to buy only on our website at launch, or on the secondary market on OpenSea or LooksRare",
   },
   {
-    title: "How secure is this token ?",
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    title: "WHERE WILL I BE ABLE TO SEE MY DIAMOND PITBULL NFT ?",
+    text: "Once you have minted a Diamond Pitbull NFT, you will be able to see it by connecting your wallet to OpenSea",
   },
   {
-    title: "What is your contract address ?",
-    text: "It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur cites of the word in classical literature.",
+    title: "WHY DIAMOND PITBULL ?",
+    text: "When you buy a Diamond Pitbull, you’re not simply buying an NFT, you are getting access to a community where benefits and utilities will increase over time.",
   },
 ];
 
