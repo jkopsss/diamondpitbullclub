@@ -145,7 +145,21 @@ const TeamMemberStyleWrapper = styled.article`
       text-align:center;
     }
     .team_member_img img{
-      
+      max-width: 63% !important;
+    }
+    }
+  }
+  @media only screen and (max-width: 575px) {
+    .bithu_team_card {
+      h3 {
+        font-size: 18px;
+        line-height: 28px;
+      }
+      .team_member_img{
+      text-align:center;
+    }
+    .team_member_img img{
+      max-width: 40% !important;
     }
     }
   }
