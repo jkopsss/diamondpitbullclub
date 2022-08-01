@@ -6,7 +6,7 @@ import { BsXLg } from "react-icons/bs";
 import { useModal } from "utils/ModalContext";
 import MobileMenuStyleWrapper from "./MobileMenu.style";
 import Button from "common/button";
-import logo from "assets/images/icon/logo_pitbull.jpeg";
+import logo from "assets/images/icon/logo_diamond_pitbull_scontornato.png";
 import openseaIcon from "assets/images/icon/opensea.svg";
 import data from "assets/data/menu/menuData";
 

@@ -7,7 +7,7 @@ import { FaDiscord, FaWallet } from "react-icons/fa";
 import { MdNotes } from "react-icons/md";
 import Button from "common/button";
 import MobileMenu from "../mobileMenu/MobileMenu";
-import logo from "assets/images/icon/logo_pitbull.jpeg";
+import logo from "assets/images/icon/logo_diamond_pitbull_scontornato.png";
 import data from "assets/data/menu/menuData";
 const Header = () => {
   const { menus, subMenus } = data;

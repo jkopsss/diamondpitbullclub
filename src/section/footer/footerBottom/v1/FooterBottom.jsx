@@ -1,7 +1,7 @@
 import Link from "next/link";
 import data from "assets/data/footer/footerLinks";
 
-import footerLogo from "assets/images/icon/logo_pitbull.jpeg";
+import footerLogo from "assets/images/icon/logo_diamond_pitbull_scontornato.png";
 import backToTopIcon from "assets/images/icon/back_to_top.svg";
 import footerShapesLeft from "assets/images/icon/footer_shapes_left.png";
 import footerShapesRight from "assets/images/icon/footer_shapes_right.png";
