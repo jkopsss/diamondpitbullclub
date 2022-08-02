@@ -2,6 +2,10 @@ import styled from "styled-components";
 
 const NavWrapper = styled.nav`
   z-index: 999;
+  .logo_img {
+        max-width: 52% !important;
+       
+      }
   .titolo{
     font-family: "Bakbak One";
     font-style: normal;
@@ -294,12 +298,12 @@ const NavWrapper = styled.nav`
       }
     }
   }
-  @media (min-width:599px) and (max-width: 768px) {
+  ${'' /* @media (min-width:599px) and (max-width: 768px) {
     .logo_img {
-        max-width: 50% !important;
+        max-width: 75% !important;
        
       }
-  }
+  } */}
   @media only screen and (max-width: 575px) {
     .join_discord_btn {
         width: 46%;
@@ -328,7 +332,18 @@ const NavWrapper = styled.nav`
         width: 180px;
         font-size: 14px;
       }
+      .logo_img {
+        max-width: 70% !important;
+       
+      }
   }
+  @media (min-width: 425px) and (max-width: 1199px) {
+    .logo_img {
+        max-width: 70% !important;
+       
+      }
+  }
+
 `;
 
 export default NavWrapper;

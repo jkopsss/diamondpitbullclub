@@ -92,7 +92,7 @@ const Banner = () => {
                   <Image src={homeImageBG} alt="bithu nft banner" />
                 </div>
                 <div className="bithu_v1_baner_right_img">
-                  <Image src={characterThumb} alt="avater" />
+                  <Image src={characterThumb} alt="avater" className="avatar"/>
                 </div>
               </div>
             </div>

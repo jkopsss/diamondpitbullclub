@@ -412,6 +412,9 @@ ${'' /* .inner-orbit-cirlces {
         font-size: 22px;
       }
     }
+    .avatar{
+      top: -50px !important;
+    }
   }
 
   @media (max-width: 360px) {
