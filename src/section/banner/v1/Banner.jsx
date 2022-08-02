@@ -20,9 +20,9 @@ const Banner = () => {
               <h2>Diamond<br/>pitbull Club 🎯 NFT collections</h2>
               <h3>
                 <span className="count">
-                  <Counter end={5555} duration={5555} />
+                  <Counter end={2777} duration={2777} />
                 </span>{" "}
-                / 5555 Minted
+                / 2777 Minted
               </h3>
               <div className="banner_buttons">
                 {/* <Button lg variant="mint" onClick={() => mintModalHandle()}>
