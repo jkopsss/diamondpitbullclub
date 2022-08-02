@@ -18,7 +18,7 @@ const data = [
         icon: checkIcon,
         title: "PHASE 03",
         subtitle: "The Staking Reward",
-        text: "After the mint, holders will be able to stack their NFT on our site in order to earn $DMND, our dimanond token."
+        text: "After the mint, holders will be able to stack their NFT on our site in order to earn $DMND, our diamond token."
     }, 
     {
         icon: checkIcon,

@@ -17,7 +17,7 @@ const Banner = () => {
         <div className="row">
           <div className="col-lg-6">
             <div className="bithu_v1_baner_left">
-              <h2>Diamond<br/>pitbullclub 🎯 NFT collections</h2>
+              <h2>Diamond<br/>pitbull Club 🎯 NFT collections</h2>
               <h3>
                 <span className="count">
                   <Counter end={5555} duration={5555} />
@@ -38,12 +38,14 @@ const Banner = () => {
                 </Link>
               </div>
               <div className="coin-info">
-                <span>Max 2 NFTs per wallet . Price 0.09 ETH + gas</span>
                 <span>
-                  MINT IS LIVE{" "}
-                  <span className="highlighted">UNTIL 25 APR 04:00H</span>
+                within the collection it will be possible to find 
+                <span className="highlighted">{" "}20 ultra rare diamond items{" "}</span> 
+                and
+                <span className="highlighted">{" "}100 ultra rare items</span>
                 </span>
-                <span>Presale : SOLDOUT</span>
+              
+             
               </div>
             </div>
           </div>

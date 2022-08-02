@@ -1,24 +1,24 @@
 { 
     "info": [
         {
-            "text": "Total Items",
-            "number": "5555",
-            "unit": ""
+            "text": "Total supply",
+            "number": "2777",
+            "unit": " NFT"
         }, 
         {
-            "text": "Total Owners",
-            "number": "896",
-            "unit": ""
+            "text": "Rare items",
+            "number": "100",
+            "unit": " RARE ITEMS"
         }, 
         {
-            "text": "Floor Price (ETH)",
-            "number": "0.55",
-            "unit": ""
+            "text": "Ultra rare items",
+            "number": "20",
+            "unit": " RAREST DIAMOND ITEMS"
         }, 
         {
-            "text": "Volume Traded (ETH)",
-            "number": "25.5",
-            "unit": "k"
+            "text": "Minting price",
+            "number": "0.2",
+            "unit": " E+GAS FEES"
         }
     ]
 }

@@ -24,7 +24,7 @@ const CoinInfoCounterWrapper = styled.section`
         font-family: "Bakbak One";
         font-style: normal;
         font-weight: 400;
-        font-size: 40px;
+        font-size: 25px;
         line-height: 36px;
         text-transform: uppercase;
         color: #ffffff;
@@ -63,7 +63,7 @@ const CoinInfoCounterWrapper = styled.section`
     ul {
       li {
         h3 {
-          font-size: 35px;
+          font-size: 20px;
         }
         h4 {
           font-size: 16px;

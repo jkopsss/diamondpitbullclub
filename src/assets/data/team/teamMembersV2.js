@@ -11,7 +11,7 @@ import avatarThumb8 from "assets/images/banner/founder_ultimo_posto.png";
 const data = [
   {
     avatar: avatarThumb1,
-    name: "Berneice Tran",
+    name: "Pattinson J. Junior",
     designation: "Founder",
     socialLinks: [
       {
@@ -30,7 +30,7 @@ const data = [
   },    
   {
     avatar: avatarThumb2,
-    name: "Nathan Bean",
+    name: "Mark Mc Tominaj",
     designation: "Co-Founder",
     socialLinks: [
       {
@@ -49,7 +49,7 @@ const data = [
   },    
   {
     avatar: avatarThumb3,
-    name: "Lynnette Wilkes",
+    name: "Alex D. Fresh",
     designation: "Artist",
     socialLinks: [
       {
@@ -68,7 +68,7 @@ const data = [
   },    
   {
     avatar: avatarThumb4,
-    name: "Claudia Hicks",
+    name: "Bonnie Ackerman",
     designation: "Software Engineer",
     socialLinks: [
       {
@@ -87,7 +87,7 @@ const data = [
   },
   {
     avatar: avatarThumb5,
-    name: "Moneo Doa",
+    name: "Jodie Jones",
     designation: "UI Designer",
     socialLinks: [
       {
@@ -106,7 +106,7 @@ const data = [
   },
   {
     avatar: avatarThumb6,
-    name: "Tamsan Doe",
+    name: "Park Ji Sung",
     designation: "Software Engineer",
     socialLinks: [
       {
@@ -125,7 +125,7 @@ const data = [
   },
   {
     avatar: avatarThumb7,
-    name: "Sony Jina",
+    name: "Eva Parker",
     designation: "Blockchain Dev",
     socialLinks: [
       {
@@ -144,7 +144,7 @@ const data = [
   },
   {
     avatar: avatarThumb8,
-    name: "Natala Elon",
+    name: "Natalia Mask",
     designation: "SEO Engineer",
     socialLinks: [
       {
