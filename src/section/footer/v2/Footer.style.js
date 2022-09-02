@@ -7,7 +7,7 @@ const FooterStyleWrapper = styled.footer`
 
   &::before {
     position: absolute;
-    background: url(${footerBG.src});
+    ${'' /* background: url(${footerBG.src}); */}
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;

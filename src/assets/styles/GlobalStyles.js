@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-
+import sfondoScuro from "assets/images/bg/sfondo_scuro.jpeg";
 const GlobalStyles = createGlobalStyle` 
 
 ::-moz-selection {
@@ -21,7 +21,11 @@ body {
     line-height: 1.6;
     font-weight: 500;
     overflow-x: hidden; 
-    background-color: #040C12 !important;
+    ${'' /* background-color: #040C12 !important; */}
+    background: url(${sfondoScuro.src});
+    ${'' /* background-position: center; */}
+    background-repeat: repeat;
+
 }
 
 img {
