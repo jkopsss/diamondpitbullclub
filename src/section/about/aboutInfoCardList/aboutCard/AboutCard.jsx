@@ -4,7 +4,7 @@ const AboutCard = ({ title, icon, text }) => {
   return (
     <AboutCardStyleWrapper className="about_us_text_card">
       <h3>
-        <img src={icon.src} alt="bithu nft about"/>
+        {/* <img src={icon.src} alt="bithu nft about"/> */}
         {title}
       </h3>
       <p>{text}</p>
